@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/coolHue-92FFC0-002661.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+
+}
+
+.video-player-controls {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.current-video-time {
+  padding: 0 5px;
+}
+
+.fullscreen {
+  padding: 0px 15px 0px 0px;
+}
+
+.full-video-time {
+  padding: 0px 15px;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 150px auto;
+
+}
+
+.rewind-input {
+  width: 99%;
+}
+
+.row2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  width: 23px;
+}
+
+
+/* .volume-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+
+
+video {
+  position: relative;
+}
+
+
+
+.none {
+  display: none;
+}
+
+.volume-input {
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.block {
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.video-control {
+  position: absolute;
+  width: 45%;
+  bottom: 200px;
+  padding: 0px 20px;
+}
+
+.video-player-controls {
+  margin-top: 5px;
+}
+
+.volume-holder {
+  position: absolute;
+  width: 24px;
+  top: -5px;
+  left: 33px;
+}
+
+.box {
+  position: relative;
+  padding: 0 7px;
+
+}
+
+.volume-image {
+  padding: 5px 15px 15px 0;
+}
+
+.play-btn {
+  margin: 0 15px;
+}
+
+.row {
+  color: aliceblue;
+}
+
+.prev img,
+.next img {
+  width: 23px;
+  height: 23px;
+}
+
+
+
+input[type=range] {
+  -webkit-appearance: none;
+}
+
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 3px;
+  background: #ddd;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: red;
+  margin-top: -6px;
+}
+
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}

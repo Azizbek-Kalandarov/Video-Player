@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="./styles/taskfirst.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <video src="" id="video-player" height="500" width="800">
+        </video>
+        <div class="video-control">
+            <input type="range" class="rewind-input" min="0" max="100">
+            <div class="row">
+                <span class="current-video-time">--:--</span>
+                <span class="full-video-time">00:00:00</span>
+            </div>
+            <div class="video-player-controls">
+    
+                <div class="box">
+                    <div class="volume-holder ">
+                        <input type="range" class="volume-input" min="0" max="100"></div>
+                    <img id="volume-image" src="./images/volume.png" alt="">
+                    <img id="no-volume-image" class="none" src="./images/mute.png" alt="">
+                </div>
+    
+                <div class="row2">
+                    <div class="prev"><img src="./images/replay.svg" alt=""></div>
+                    <div class="play-btn">
+                        <img class="icons" src="./images/play.png" alt="">
+                    </div>
+                    <div class="next"><img src="./images/forward.svg" alt=""></div>
+                </div>
+    
+                <div class="fullscreen"><img src="./images/switch-to-full-screen-button.png" alt=""></div>
+            </div>
+        </div>
+       
+
+    </div>
+
+
+
+
+
+
+    <script src="./scripts/taskfirst.js"></script>
+
+</body>
+
+</html>
