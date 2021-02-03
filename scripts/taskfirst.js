@@ -51,6 +51,7 @@ volumeImage.addEventListener('click', function () {
     videoVolumeInput.value = 0;
     volumeImage.classList.add('none');
     noVolumeImage.classList.remove('none');
+   
 });
 
 noVolumeImage.addEventListener('click', function () {
@@ -69,6 +70,8 @@ videoPlayBtn.addEventListener('click', function () {
         videoPlayer.play();
         icons.src = "./images/pause.png"
     }
+    videoCurrentPosition();
+    func();
 
 })
 
